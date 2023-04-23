@@ -23,7 +23,7 @@ for(i=0; i<basket.length;i++){
 }
 }
 function empty(){
-    if(empty<basket.length){
-        return empty(reset);
-    }
+    basket.length = 0;
+    console.log('You returned everything:', basket)
 }
+empty();
