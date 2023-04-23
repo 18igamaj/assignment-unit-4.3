@@ -22,3 +22,8 @@ for(i=0; i<basket.length;i++){
     console.log(basket[3]);
 }
 }
+function empty(){
+    if(empty<basket.length){
+        return empty(reset);
+    }
+}
