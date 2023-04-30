@@ -15,13 +15,11 @@ additem('Cake');
 
 function listItems(){
 for(i=0; i<basket.length;i++){
-    console.log('What do we got in our basket?:', basket[i]);
-    console.log(basket[0]);
-    console.log(basket[1]);
-    console.log(basket[2]);
-    console.log(basket[3]);
-}
-}
+console.log('What do we got in our basket?:', basket[i]);
+};
+};
+listItems();
+
 function empty(){
     basket.length = 0;
     console.log('You returned everything:', basket)
